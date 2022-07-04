@@ -54,7 +54,7 @@ function iniciarPerguntas() {
       exibirCaixaDeRespostas();
       break;
 
-    case 4:
+    case 5:
       desenharBalao(30, "O seu nome é! " + nome, 285, 70);
       exibirCaixaDeRespostas();
       break;
