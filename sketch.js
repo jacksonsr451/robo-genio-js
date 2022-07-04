@@ -99,5 +99,5 @@ function descobrirNome() {
 }
 
 function final() {
-  caixa_de_respostas.setVisible(false)
+  caixa_de_respostas.remove()
 }
