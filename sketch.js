@@ -29,25 +29,26 @@ function mousePressed() {
 function iniciarPerguntas() {
   switch (numero_da_pergunta) {
     case 1:
-      desenharBalao("Qual o seu livro favorito?")
+      desenharBalao(30, "Qual o seu livro \n favorito?", 285, 70)
       break;
   
     default:
       desenharBalao(
+        15,
         "Seja bem vindo ao Alura Gênios! \n" +
         "Para adivinhar o seu nome, responda \n" +
         "minhas perguntas com frazes \n" +
         "longas. \n" +
-        "Clique na tela para começar!"
+        "Clique na tela para começar!", 290, 50
       )
       break;
   }
 }
 
-function desenharBalao(testoParaBalao) {
+function desenharBalao(fontSize, testoParaBalao, posX, posY) {
   image(balao, 120, 10, 350, 200)
-  textSize(15);
+  textSize(fontSize);
   textAlign(CENTER);
   textStyle(BOLD);
-  text( testoParaBalao, 290, 50)
+  text( testoParaBalao, posX, posY)
 }
