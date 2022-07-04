@@ -21,7 +21,9 @@ function draw() {
 }
 
 function mousePressed() {
-  numero_da_pergunta += 1;
+  if (numero_da_pergunta <= 0) {
+    numero_da_pergunta += 1;
+  }
 }
 
 function iniciarPerguntas() {
