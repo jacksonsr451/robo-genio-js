@@ -99,5 +99,5 @@ function descobrirNome() {
 }
 
 function final() {
-  caixa_de_respostas.position(700, 360)
+  caixa_de_respostas.position(85, 1000)
 }
