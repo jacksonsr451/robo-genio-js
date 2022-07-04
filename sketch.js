@@ -4,6 +4,8 @@ let balao;
 
 let numero_da_pergunta = 0;
 
+let caixa_de_respostas;
+
 function preload() {
   background_img = loadImage("img/background.png");
   robo = loadImage("img/robo.png");
@@ -12,6 +14,8 @@ function preload() {
 
 function setup() {
   createCanvas(600, 400);
+
+  caixa_de_respostas = createInput();
 }
 
 function draw() {
@@ -29,7 +33,8 @@ function mousePressed() {
 function iniciarPerguntas() {
   switch (numero_da_pergunta) {
     case 1:
-      desenharBalao(30, "Qual o seu livro \n favorito?", 285, 70)
+      desenharBalao(30, "Qual o seu livro \n favorito?", 285, 70);
+      exibirCaixaDeRespostas()
       break;
   
     default:
@@ -43,6 +48,11 @@ function iniciarPerguntas() {
       )
       break;
   }
+}
+
+function exibirCaixaDeRespostas() {
+  caixa_de_respostas.possition(85, 360);
+  caixa_de_respostas.size(450, 20)
 }
 
 function desenharBalao(fontSize, testoParaBalao, posX, posY) {
