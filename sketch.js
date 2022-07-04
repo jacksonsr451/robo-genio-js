@@ -51,7 +51,7 @@ function iniciarPerguntas() {
 }
 
 function exibirCaixaDeRespostas() {
-  caixa_de_respostas.possition(85, 360);
+  caixa_de_respostas.position(85, 360);
   caixa_de_respostas.size(450, 20)
 }
 
