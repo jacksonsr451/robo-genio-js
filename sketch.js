@@ -5,6 +5,7 @@ let balao;
 function preload() {
   background_img = loadImage("img/background.png");
   robo = loadImage("img/robo.png");
+  balao = loadImage("img/balao.png")
 }
 
 function setup() {
@@ -14,4 +15,5 @@ function setup() {
 function draw() {
   background(background_img);
   image(robo, 220, 200, 150, 150);
+  image(balao, 140, 10, 300, 200)
 }
