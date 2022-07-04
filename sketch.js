@@ -34,7 +34,7 @@ function iniciarPerguntas() {
   switch (numero_da_pergunta) {
     case 1:
       desenharBalao(30, "Qual o seu livro \n favorito?", 285, 70);
-      exibirCaixaDeRespostas()
+      exibirCaixaDeRespostas();
       break;
   
     default:
