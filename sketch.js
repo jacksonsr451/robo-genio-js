@@ -15,7 +15,7 @@ function setup() {
 function draw() {
   background(background_img);
   image(robo, 220, 200, 150, 150);
-  image(balao, 140, 10, 300, 200)
+  image(balao, 145, 10, 300, 200)
   textSize(15);
   textAlign(CENTER);
   textStyle(BOLD);
