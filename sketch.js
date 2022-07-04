@@ -1,7 +1,10 @@
-let background_img
+let background_img;
+let robo;
+
 
 function preload() {
-  background_img = loadImage("./img/background.img")
+  background_img = loadImage("./img/background.img");
+  robo = loadImage("./img/robo.png");
 }
 
 function setup() {
