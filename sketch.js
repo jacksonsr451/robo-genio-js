@@ -26,3 +26,7 @@ function draw() {
       "Clique na tela para começar!" 
       , 290, 50)
 }
+
+function mousePressed() {
+  console.log("Teste de clique");
+}
