@@ -18,10 +18,11 @@ function draw() {
   image(balao, 140, 10, 300, 200)
   textSize(15);
   textAlign(CENTER);
+  textStyle(BOLD);
   text("Seja bem vindo ao Alura Gênios! \n" +
       "Para adivinhar o seu nome, responda \n" +
       "minhas perguntas com frazes \n" +
       "longas. \n" +
       "Clique na tela para começar!" 
-      , 180, 50)
+      , 290, 50)
 }
