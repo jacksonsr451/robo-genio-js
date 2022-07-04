@@ -56,6 +56,7 @@ function iniciarPerguntas() {
 
     case 5:
       desenharBalao(30, "O seu nome é!\n" + nome, 285, 70);
+      final();
       break;
   
     default:
@@ -95,4 +96,8 @@ function descobrirNome() {
   nome = nome +  input[0];
   caixa_de_respostas.value("");
   numero_da_pergunta ++;
+}
+
+function final() {
+  caixa_de_respostas.position(700, 360)
 }
