@@ -74,7 +74,8 @@ function iniciarPerguntas() {
 
 function exibirCaixaDeRespostas() {
   caixa_de_respostas.position(85, 360);
-  caixa_de_respostas.size(450, 20)
+  caixa_de_respostas.size(450, 20);
+  caixa_de_respostas.elt.placeholder = "Responda aqui, e pressione a tecla ENTER";
 }
 
 function desenharBalao(fontSize, testoParaBalao, posX, posY) {
@@ -87,8 +88,14 @@ function desenharBalao(fontSize, testoParaBalao, posX, posY) {
 
 function keyPressed() {
   if (keyCode === ENTER) {
-    descobrirNome();
+    if ( validar_resposta() ) {
+      descobrirNome();
+    }
   }
+}
+
+function validar_resposta() {
+  return !caixa_de_respostas.value() == "";
 }
 
 function descobrirNome() {
