@@ -17,6 +17,7 @@ function draw() {
   image(robo, 220, 200, 150, 150);
   image(balao, 140, 10, 300, 200)
   textSize(15);
+  textAlign(CENTER);
   text("Seja bem vindo ao Alura Gênios!" +
       "Para adivinhar o seu nome, responda \n" +
       "minhas perguntas com frazes \n" +
