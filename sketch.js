@@ -3,7 +3,7 @@ let robo;
 
 
 function preload() {
-  background_img = loadImage("img/background.img");
+  background_img = loadImage("img/background.png");
   robo = loadImage("img/robo.png");
 }
 
