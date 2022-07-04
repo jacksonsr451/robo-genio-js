@@ -92,12 +92,18 @@ function keyPressed() {
 }
 
 function descobrirNome() {
-  let input = caixa_de_respostas.value();
-  nome = nome +  input[0];
+  let resposta = caixa_de_respostas.value();
+  if (temPontoFinal(resposta)) {
+    nome = nome +  resposta[0];
+  }
   caixa_de_respostas.value("");
   numero_da_pergunta ++;
 }
 
 function final() {
   caixa_de_respostas.remove()
+}
+
+function temPontoFinal(resposta) {
+  return resposta.includes(".");
 }
