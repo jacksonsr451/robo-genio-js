@@ -6,6 +6,8 @@ let numero_da_pergunta = 0;
 
 let caixa_de_respostas;
 
+let nome = "";
+
 function preload() {
   background_img = loadImage("img/background.png");
   robo = loadImage("img/robo.png");
@@ -36,6 +38,26 @@ function iniciarPerguntas() {
       desenharBalao(30, "Qual o seu livro \n favorito?", 285, 70);
       exibirCaixaDeRespostas();
       break;
+
+    case 2:
+      desenharBalao(30, "Qual o seu filme \n favorito?", 285, 70);
+      exibirCaixaDeRespostas();
+      break;
+
+    case 3:
+      desenharBalao(30, "Qual o sua fruta \n favorito?", 285, 70);
+      exibirCaixaDeRespostas();
+      break;
+
+    case 4:
+      desenharBalao(30, "Qual o sua cor \n favorito?", 285, 70);
+      exibirCaixaDeRespostas();
+      break;
+
+    case 4:
+      desenharBalao(30, "O seu nome é! " + nome, 285, 70);
+      exibirCaixaDeRespostas();
+      break;
   
     default:
       desenharBalao(
@@ -61,4 +83,17 @@ function desenharBalao(fontSize, testoParaBalao, posX, posY) {
   textAlign(CENTER);
   textStyle(BOLD);
   text( testoParaBalao, posX, posY)
+}
+
+function keyPressed() {
+  if (keyCode === ENTER) {
+    descobrirNome();
+  }
+}
+
+function descobrirNome() {
+  let input = caixa_de_respostas.value();
+  nome = nome +  input[0];
+  caixa_de_respostas.value("");
+  numero_da_pergunta ++;
 }
