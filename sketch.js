@@ -1,8 +1,6 @@
 let background_img;
 let robo;
-
-let background;
-
+let balao;
 
 function preload() {
   background_img = loadImage("img/background.png");
@@ -10,9 +8,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
 }
 
 function draw() {
-  background(220);
+  background(background_img);
 }
