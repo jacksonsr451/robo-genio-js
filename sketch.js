@@ -13,4 +13,5 @@ function setup() {
 
 function draw() {
   background(background_img);
+  Image(robo, 220, 200, 150, 150);
 }
