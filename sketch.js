@@ -17,22 +17,28 @@ function setup() {
 function draw() {
   background(background_img);
   image(robo, 220, 200, 150, 150);
-  desenharBalao(
-    "Seja bem vindo ao Alura Gênios! \n" +
-    "Para adivinhar o seu nome, responda \n" +
-    "minhas perguntas com frazes \n" +
-    "longas. \n" +
-    "Clique na tela para começar!"
-  )
-}
-
-function mousePressed() {
   iniciarPerguntas();
 }
 
+function mousePressed() {
+  numero_da_pergunta += 1;
+}
+
 function iniciarPerguntas() {
-  if(numero_da_pergunta == 0) {
-    
+  switch (numero_da_pergunta) {
+    case 1:
+      desenharBalao("Qual o seu livro favorito?")
+      break;
+  
+    default:
+      desenharBalao(
+        "Seja bem vindo ao Alura Gênios! \n" +
+        "Para adivinhar o seu nome, responda \n" +
+        "minhas perguntas com frazes \n" +
+        "longas. \n" +
+        "Clique na tela para começar!"
+      )
+      break;
   }
 }
 
