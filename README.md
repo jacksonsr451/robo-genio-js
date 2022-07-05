@@ -10,7 +10,7 @@ Criando Rôbo Gênio com JS
 Realmente bacana refazer este game, desenvolvido pela alura para ensinar no Scratch e transferido para JS.
 Algumas modificações de código, e pretendo ainda alterar mais.
 
-[![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)]() [![](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](vercel.com) [![](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)](https://pages.github.com/) [![](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
+[![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)]() [![](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](vercel.com) [![](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)](https://pages.github.com/) [![](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/) [![](https://img.shields.io/badge/Scratch-4D97FF?style=for-the-badge&logo=Scratch&logoColor=white)](htttps://scratch.mit.edu)
 
 
 Para captura de resultados, a resposta deve conter a primeira letra com a respectiva letra que se mira: Exp - JACKSON, estamos na primeira letra, a primeira que deve conter na resposta é a letra J caso seja a 3°, a primeira a conter na resposta é a letra C.
