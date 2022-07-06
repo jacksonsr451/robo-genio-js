@@ -16,9 +16,9 @@ Algumas modificações de código, e pretendo ainda alterar mais.
 Para captura de resultados, a resposta deve conter a primeira letra com a respectiva letra que se mira: Exp - JACKSON, estamos na primeira letra, a primeira que deve conter na resposta é a letra J caso seja a 3°, a primeira a conter na resposta é a letra C.
 
 E no final de cada resposta deve se conter o ponto final:
-EXP - ``` Já sei, meu filme favorito é MATIX.```
+EXP - ``` Já sei, meu filme favorito é MATRIX.```
 
 Caso esteja sem o ponto final sera descartado do resultado final.
-EXP - ``` Já sei, meu filme favorito é MATIX```
+EXP - ``` Já sei, meu filme favorito é MATRIX```
 
 Ao termino das quatro questões, deve por enquanto se atualizar o navegador para reiniciar.
